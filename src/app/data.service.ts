@@ -12,6 +12,7 @@ export class DataService {
     return this.http.get('https://reqres.in/api/users')
   }
 
+// get data from reqres api
   getAngular(){
     return this.http.get('https://reqres.in/api/users?delay=3')
   }
